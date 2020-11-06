@@ -3,14 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedMaterialModule } from './shared/shared-material.module';
+import { LunchMenuComponent } from './lunch-menu/lunch-menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LunchMenuComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    SharedMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
