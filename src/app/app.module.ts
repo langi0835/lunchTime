@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedMaterialModule } from './shared/shared-material.module';
 import { LunchMenuComponent } from './lunch-menu/lunch-menu.component';
+import { LunchListComponent } from './lunch-list/lunch-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LunchMenuComponent
+    LunchMenuComponent,
+    LunchListComponent
   ],
   imports: [
     BrowserModule,
